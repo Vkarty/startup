@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/start-bg.png);
+    background-position: bottom;
+    background-size: cover;
+}
+
+.header-content {
+    padding: 100px;
+}
+
+.header-content h3 {
+    color: black;
+    padding: 3px;
+    font-size: 40px;
+}
+
+.header-content h1 {
+    color: white;
+    padding: 5px;
+    font-size: 60px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.header-content h4 {
+    color: black;
+    padding: 5px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.ctn {
+    padding: 12px 35px;
+    background: rgb(228, 228, 1);
+    border-radius: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+.header-content a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/* Animation */
+
+.ctn:hover {
+    background: whitesmoke;
+    color: black;
+    box-shadow: 2px 2px 2px #00000056;
+}
